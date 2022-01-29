@@ -1,0 +1,54 @@
+$primary-color: blueviolet;
+
+.container {
+  padding: 0 2rem;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  border: 1px solid gray;
+  justify-content: center;
+}
+
+.main {
+  padding: 4rem 0;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.posts {
+  list-style: none;
+  padding: 0;
+  width: 800px;
+  margin: 5em 0;
+
+  li {
+    margin-bottom: 3em;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .date {
+    font-size: 1em;
+  }
+
+  p {
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+
+    &:first-child {
+      margin-top: 0;
+    }
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
